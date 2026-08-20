@@ -1,0 +1,22 @@
+/* Tema claro (por defecto) */
+body {
+    background-color: #ffffff;
+    color: #333333;
+}
+
+/* Tema oscuro */
+body.dark-mode {
+    background-color: #222222;
+    color: #ffffff;
+}
+
+/* Ejemplo para Bootstrap */
+body.dark-mode .navbar,
+body.dark-mode .well {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+body.dark-mode .table {
+    color: #ffffff;
+}
